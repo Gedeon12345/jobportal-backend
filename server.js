@@ -6,11 +6,11 @@ const connectDB = require('./config/db');
  
 const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes"); 
-const jobRoutes = require("./Routes/jobRoutes");
-const applicationRoutes = require("./Routes/applicationRoutes");
-const savedJobsRoutes = require("./Routes/savedJobsRoutes");
-const analyticsRoutes = require("./Routes/analyticsRoutes");
-const jobseekerRoutes = require("./Routes/jobseekerRoutes");
+const jobRoutes = require("./routes/jobRoutes");
+const applicationRoutes = require("./routes/applicationRoutes");
+const savedJobsRoutes = require("./routes/savedJobsRoutes");
+const analyticsRoutes = require("./routes/analyticsRoutes");
+const jobseekerRoutes = require("./routes/jobseekerRoutes");
 
 const app = express();
 
